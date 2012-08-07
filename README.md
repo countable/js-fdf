@@ -7,6 +7,7 @@ Installing
 ----------
 ````
 
+npm install fdf
 ````
 
 Usage
