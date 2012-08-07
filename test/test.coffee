@@ -1,6 +1,6 @@
 
-fdf = require('../index')
-
+fdf = require '../index'
+fs = require 'fs'
 data = fdf.generate
   name: 'Clark'
   type: 'superhero'

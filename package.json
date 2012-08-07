@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node test/test.js"
   },
+  "dependencies": {
+    "MD5": "*"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/countable/js-fdf.git"
