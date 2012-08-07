@@ -1,7 +1,7 @@
 js-fdf
 ======
 
-This is an FDF (Form Data Format) generator for Node.js. FDF is a format you can use to populate Adobe PDF forms. This generator is inspired by this tutorial http://koivi.com/fill-pdf-form-fields/tutorial.php by Justin Koivisto, but uses javascript instead of PHP.
+This is an FDF (Form Data Format) generator for Node.js. FDF is a format you can use to populate Adobe PDF forms. 
 
 Installing
 ----------
@@ -32,3 +32,8 @@ pdftk form.pdf fill_form data.fdf output - flatten
 ````
 
 This will populate form.pdf with the values.
+
+See Also
+--------
+ - fdfgen - in Python - https://github.com/ccnmtl/fdfgen
+ - koivi createPDF - in PHP - http://koivi.com/fill-pdf-form-fields/tutorial.php
