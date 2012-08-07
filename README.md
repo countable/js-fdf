@@ -6,8 +6,7 @@ This is an FDF (Form Data Format) generator for Node.js. FDF is a format you can
 Installing
 ----------
 ````
-
-npm install fdf
+~% npm install fdf
 ````
 
 Usage
