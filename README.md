@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/countable/js-fdf.png)](http://travis-ci.org/countable/js-fdf)
 js-fdf
 ======
 
