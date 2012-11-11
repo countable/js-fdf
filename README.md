@@ -1,7 +1,8 @@
 js-fdf
 ======
 
-This is an FDF (Form Data Format) generator for Node.js. FDF is a format you can use to populate Adobe PDF forms. 
+This is an FDF (Form Data Format) generator for Node.js.
+FDF is a format you can use to populate Adobe PDF forms. 
 
 Installing
 ----------
@@ -12,16 +13,14 @@ Installing
 Usage
 -----
 ````javascript
-var fdf = require('fdf');
+var fdf = require('fdf')
+  , fs = require('fs');
 
-fdf = require('js-fdf');
-
-data = fdf.generate({
-  name: 'Clark'
-  type: 'superhero'
+var data = fdf.generate({
+  name: 'Batman',
+  type: 'Superhero'
 });
 
-var fs = require('fs');
 fs.writeFileSync('data.fdf', data);
 ````
 
