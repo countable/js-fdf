@@ -19,9 +19,9 @@ module.exports.generate = (form, file) ->
             %#{header}
             1 0 obj 
             <<
-            /FDF 
+            /Version/1.3/FDF 
             <<
-            /Fields [
+            /Encoding/utf_8/Fields [
             """
     for field, val of form
         if typeof val is "array"
