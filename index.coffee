@@ -19,12 +19,12 @@ module.exports.generate = (form, file) ->
             %#{header}
             1 0 obj 
             <<
-            /Version/1.3/FDF 
+            /FDF 
             <<
-            /Encoding/utf_8/Fields [
+            /Fields [
             """
     for field, val of form
-        if typeof val is "array"
+        if typeof val is "object" and Array.isArray(val)
             data += """<<
                     /V(#{val})
                     /T["""
