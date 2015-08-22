@@ -36,3 +36,4 @@ See Also
 --------
  - fdfgen - in Python - https://github.com/ccnmtl/fdfgen
  - koivi createPDF - in PHP - http://koivi.com/fill-pdf-form-fields/tutorial.php
+ - XFDF for Node - https://www.npmjs.com/package/xfdf
