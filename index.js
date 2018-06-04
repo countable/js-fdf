@@ -2,7 +2,7 @@
 (function() {
   var fs, md5;
 
-  md5 = require("MD5");
+  md5 = require("md5");
 
   fs = require("fs");
 
